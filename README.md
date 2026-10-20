@@ -1,5 +1,7 @@
 # NativeVirtioBlock
 
-Virtio block driver.
+Virtio block driver. Exposes virtio-mmio block devices to XNU.
 
-Maintained as an independent module and included by [UniXNU](https://github.com/UniXNU/UniXNU) at `drivers/NativeVirtioBlock`.
+Current state: used by the QEMU instruments.
+
+Linked into XNU by `unixnu build kernel`.
