@@ -1,7 +1,7 @@
-# NativeVirtioBlock
+# VirtioMmioBlock
 
-Virtio block driver. Exposes virtio-mmio block devices to XNU.
+VirtIO MMIO read-only block transport.
 
-Current state: used by the QEMU instruments.
+used by the QEMU instruments.
 
-Linked into XNU by `unixnu build kernel`.
+Build and interface details: [documentation](https://unixnu.com/drivers/virtio-mmio-block). Component sources and dependencies: [catalog](https://unixnu.com/reference/components).
